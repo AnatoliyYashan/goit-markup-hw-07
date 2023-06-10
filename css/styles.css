@@ -56,7 +56,7 @@ img {
 }
 @media screen and (min-width:428px) {
   .container {
-    width: 428px;
+    max-width:428px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -64,7 +64,7 @@ img {
 }
 @media screen and (min-width:768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     
     
   }
@@ -72,7 +72,9 @@ img {
 }
 @media screen and (min-width:1200px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
+ padding-left: 15px;
+  padding-right: 15px;
     
     }
   
@@ -1024,7 +1026,7 @@ color: #434455;}
             .container-footer {
               
               align-items: start;
-              justify-content:start;
+              justify-content:flex-start;
               row-gap: 72px;
               column-gap: 24px;
               padding-left: 108px;
