@@ -41,9 +41,95 @@
             <li><a class="link-adres link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
           </ul>
         </address>
+        <button type="button" class="mobile-menu-open-btn js-open-menu">
+          <svg class="mobile-menu-open-btn-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+
+        </button>
+<div class="mobile-menu js-menu-container">
+  <div class="container mobile-menu-container">
+    <button class="mobile-menu-close-btn js-close-menu">
+      <svg class="mobile-menu-close-icon" width="8" height="8">
+        <use href="./images/icons.svg#icon-close-i"></use>
+      </svg>
+    </button>
+    <ul class=" nav-list-mobile list">
+      <li>
+        <a class="link-nav-mobile link"  href="./index.html">Studio</a>
+      </li>
+      <li><a class="link-nav-mobile link" href="">Portfolio</a></li>
+      <li><a class="link-nav-mobile link" href="">Contacts</a></li>
+    </ul>
+    <address >
+      <ul class="list-adress-mobile list">
+        
+        <li><a class="link-adres-mobile-phone link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <li>
+          <a class="link-adres-mobile-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+      </ul>
+    </address>
+    <ul class="list list-soc-network-mobile">
+      <li class="social-list">
+        <a href="" class="backround-soc-icon">
+          <svg
+            class="icon-soc-network"
+            width="16"
+            height="16"
+            aria-label="instagram-icon"
+          >
+            <use href="./images/icons.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social-list">
+        <a href="" class="backround-soc-icon"
+          ><svg
+            class="icon-soc-network"
+            width="16"
+            height="16"
+            aria-label="twiter-icon"
+          >
+            <use href="./images/icons.svg#icon-twitter"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social-list">
+        <a href="" class="backround-soc-icon"
+          ><svg
+            class="icon-soc-network"
+            width="16"
+            height="16"
+            aria-label="facebok-icon"
+          >
+            <use href="./images/icons.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social-list">
+        <a href="" class="backround-soc-icon"
+          ><svg
+            class="icon-soc-network"
+            width="16"
+            height="16"
+            aria-label="linkedin-icon"
+          >
+            <use href="./images/icons.svg#icon-linkedin"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+  
+</div>
       </div>
+
     </header>
     <!--------- МЕІН------- -->
+
     <main>
       <!--------- SECTION-1------- -->
       <section class="section-one">
@@ -63,10 +149,8 @@
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="description-name">Strategy</h3>
-              <p class="description-name-p">
-                Our goal is to identify the business problem to walk away with the perfect and
-                creative solution.
+              <h3 class="description-name-sec-two">Strategy</h3>
+              <p class="description-name-p-sec-two">Our goal is to identify the business problem to walk away with the perfect and creative solution.
               </p>
             </li>
             <li class="description-list-item">
@@ -75,9 +159,8 @@
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="description-name">Punctuality</h3>
-              <p class="description-name-p">
-                Bring the key message to the brand's audience for the best price within the shortest
+              <h3 class="description-name-sec-two">Punctuality</h3>
+              <p class="description-name-p-sec-two">Bring the key message to the brand's audience for the best price within the shortest
                 possible time.
               </p>
             </li>
@@ -87,11 +170,9 @@
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="description-name">Diligence</h3>
-              <p class="description-name-p">
-                Research and confirm brands that present the strongest digital growth opportunities
-                and minimize risk.
-              </p>
+              <h3 class="description-name-sec-two">Diligence</h3>
+              <p class="description-name-p-sec-two">Research and confirm brands that present the strongest digital growth opportunities
+                and minimize risk.</p>
             </li>
             <li class="description-list-item">
               <div class="icon-bakcround">
@@ -99,11 +180,9 @@
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="description-name">Technologies</h3>
-              <p class="description-name-p">
-                Design practice focused on digital experiences. We bring forth a deep passion for
-                problem-solving.
-              </p>
+              <h3 class="description-name-sec-two">Technologies</h3>
+              <p class="description-name-p-sec-two">Design practice focused on digital experiences. We bring forth a deep passion for
+                problem-solving.</p>
             </li>
           </ul>
         </div>
@@ -115,6 +194,7 @@
           <ul class="doing-list list">
             <li class="doing-list-item">
               <img
+              srcset="./images/img_section2/macbook2x.jpg 2x"
                 src="./images/img_section2/macbook.jpg"
                 alt="macbook with diagram"
                 width="360"
@@ -123,6 +203,7 @@
             </li>
             <li class="doing-list-item">
               <img
+              srcset="./images/img_section2/screens2x.jpg 2x"
                 src="./images/img_section2/screens.jpg"
                 alt="many screens of phone"
                 width="360"
@@ -131,6 +212,7 @@
             </li>
             <li class="doing-list-item">
               <img
+              srcset="./images/img_section2/phone_notebook2x.jpg 2x"
                 src="./images/img_section2/phone_notebook.jpg"
                 alt="phone_notebook"
                 width="360"
@@ -140,7 +222,7 @@
           </ul>
         </div>
       </section>
-      <!--------- SECTION-4------- -->
+      <!------- SECTION-4------- -->
       <section class="section-four section">
         <div class="container section-four-container">
           <h2 class="name-section">Our Team</h2>
@@ -150,6 +232,7 @@
               <img
                 class="team-photo"
                 src="./images/img_section3/mark_guerrero.jpg"
+                srcset="./images/img_section3/mark_guerrero2x.jpg 2x"
                 alt="photo of mark guerrero"
                 width="264"
                 height="260"
@@ -212,6 +295,7 @@
             <li class="name-of-team">
               <img
                 class="team-photo"
+                srcset="./images/img_section3/tom_ford2x.jpg 2x"
                 src="./images/img_section3/tom_ford.jpg"
                 alt="photo of tom ford"
                 width="264"
@@ -275,6 +359,7 @@
             <li class="name-of-team">
               <img
                 class="team-photo"
+                srcset="./images/img_section3/camila_garcia2x.jpg 2x"
                 src="./images/img_section3/camila_garcia.jpg"
                 alt="photo of camila garcia"
                 width="264"
@@ -338,6 +423,7 @@
             <li class="name-of-team">
               <img
                 class="team-photo"
+                srcset="./images/img_section3/daniel_wilson2x.jpg 2x"
                 src="./images/img_section3/daniel_wilson.jpg"
                 alt="photo of daniel wilson"
                 width="264"
@@ -402,48 +488,48 @@
         </div>
       </section>
       <!--------- SECTION-5------- -->
-      <section class="section-five section">
+    <section class="section-five section">
         <div class="container section-five-container">
           <h2 class="name-section">Customers</h2>
           <ul class="customers-list list">
             <li class="customers-item">
               <a href="" class="customers-link">
-                <svg class="customers-icon" width="104" height="56" aria-label="YACO-icon">
+                <svg class="customers-icon"  aria-label="YACO-icon">
                   <use href="./images/icons.svg#icon-yaco"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-item">
               <a href="" class="customers-link">
-                <svg class="customers-icon" width="104" height="56" aria-label="company-icon">
+                <svg class="customers-icon"  aria-label="company-icon">
                   <use href="./images/icons.svg#icon-company"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-item">
               <a href="" class="customers-link">
-                <svg class="customers-icon" width="104" height="56" aria-label="company-icon">
+                <svg class="customers-icon"  aria-label="company-icon">
                   <use href="./images/icons.svg#icon-company-2"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-item">
               <a href="" class="customers-link">
-                <svg class="customers-icon" width="104" height="56" aria-label="foster-peters-icon">
+                <svg class="customers-icon"  aria-label="foster-peters-icon">
                   <use href="./images/icons.svg#icon-foster-peters"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-item">
               <a href="" class="customers-link">
-                <svg class="customers-icon" width="104" height="56" aria-label="brand-icon">
+                <svg class="customers-icon"  aria-label="brand-icon">
                   <use href="./images/icons.svg#icon-brand"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-item">
               <a href="" class="customers-link">
-                <svg class="customers-icon" width="104" height="56" aria-label="company-icon">
+                <svg class="customers-icon"  aria-label="company-icon">
                   <use href="./images/icons.svg#icon-company-3"></use>
                 </svg>
               </a>
@@ -530,18 +616,19 @@
                 required
               />
             </label>
-            <!--<div class="button-footer-icon-wrapper">-->
+            <div class="button-footer-icon-wrapper">
             <button class="footer-form-button" type="submit">
               Subscribe<svg class="icon-footer-button" width="24" height="24">
                 <use href="./images/icons.svg#icon-telegram"></use>
               </svg>
             </button>
+            </div>
           </form>
         </div>
       </div>
     </footer>
     <!--------- MODAL------- -->
-    <div class="backdrop is-hidden" data-modal>
+   <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
@@ -643,5 +730,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
